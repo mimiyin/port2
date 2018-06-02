@@ -1,0 +1,137 @@
+body {
+  /* background-image: url('http://backgroundcheckall.com/wp-content/uploads/2017/12/salt-background-8.jpg'); */
+  background-image: url('https://i.pinimg.com/originals/5d/af/cc/5dafccb56e273eddc7b30e68b7060d7c.jpg');
+  background-size: 200vw;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+.gel {
+  width: 100%;
+  height: inherit;
+  float: none;
+  position: absolute;
+  z-index: -1;
+  top: 0px;
+  left: 0px;
+}
+
+.gel.menu-bg {
+  width: 150%;
+  height: 150%;
+}
+
+#menu-button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  z-index: 10;
+  background: white;
+  padding: 5px;
+}
+
+body p {
+  font-family: Courier;
+}
+
+#menu-container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+#menu {
+  width: 80vw;
+  height: 100vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+#menu li {
+  list-style-type: none;
+}
+li.menu-category {
+  margin: 0px;
+  width: 25%;
+  text-align: right;
+}
+li.menu-category:nth-child(even) {
+  text-align: left;
+}
+li.menu-project {
+  position: relative;
+  background: none;
+  height: 300px;
+  cursor: pointer;
+  margin: 10px 10px;
+  padding: 20px;
+}
+li.menu-project:hover {
+  color: rgb(225, 0, 67);
+}
+li.menu-project p {
+  font-size: 0.75em;
+  margin: 0 10px 0 10px;
+}
+li.menu-project p.materials,  li.menu-project p.description{
+  margin-top: 20px;
+}
+li.menu-project p.tagline {
+  font-size: 1.5em;
+  line-height: 1em;
+}
+li.menu-project p.title {
+  margin-bottom: 20px;
+  padding-top: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-variant-caps: all-small-caps;
+  line-height: .75em;
+}
+
+#projects {
+  /* z-index: 5; */
+}
+
+.project {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  opacity: 0;
+}
+
+
+
+.show {
+  opacity: 1;
+  -webkit-transition: opacity 5s; /* Safari */
+  transition: opacity 5s;
+}
+.hide {
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: opacity 3s; /* Safari */
+  transition: opacity 3s;
+}
+
+iframe, embed {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+iframe.vimeo {
+  min-width: 170vw;
+  min-height: 100vh;
+  margin-left: -35vw;
+}
+
+embed {
+  min-width: 100%;
+  min-height: 150vh;
+  left: 0;
+}

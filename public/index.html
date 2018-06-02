@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.7/p5.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.7/addons/p5.dom.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.7/addons/p5.sound.min.js"></script>
+  <!-- Ractive -->
+  <script src='https://cdn.jsdelivr.net/npm/ractive'></script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <!-- Gallery -->
+  <div id='target'></div>
+  <script id='template' type='text/ractive'>
+    <div id='projects'>
+      {{#categories:c}}
+        <div class='category'>
+          {{#projects:p}}
+            {{#if .show}}
+              <div class='project' id='{{.id}}'>
+                {{#if .url}}
+                  <iframe class="url" src="{{.url}}"></iframe>
+                {{/if}}
+                {{#if .vimeo}}
+                  <iframe class="vimeo" src="{{.vimeo}}" width="800" height="450" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                {{/if}}
+                {{#if .flickr}}
+                  <embed value="transparent" type="application/x-shockwave-flash" src='{{.flickr}}' allowFullScreen="true" flashvars="offsite=true&lang=en-us&page_show_url=%2Fphotos%2F78004446%40N00%2Fsets%2F72157628487604271%2Fshow%2F&page_show_back_url=%2Fphotos%2F78004446%40N00%2Fsets%2F72157628487604271%2F&set_id=72157628487604271&jump_to=" class="media flickr" width="800" height="450">
+                {{/if}}
+              </div>
+            {{/if}}
+          {{/projects}}
+        </div>
+      {{/catgories}}
+    </div>
+
+    <div id='menu-button' on-click="@.showMenu()">PROJECTS</div>
+    <div id='menu-container'>
+      <div class='gel menu-bg'></div>
+        <ul id='menu'>
+          {{#categories:c}}
+            <li class='menu-category'>
+              {{#projects:p}}
+              <li class='menu-project' id='menu-{{.id}}' on-click='@.enter(this)'>
+                <div class="gel"></div>
+                <p class='title'>{{.title}}</p>
+                <p class='tagline'>{{.tagline}}</p>
+                <p class='description'>{{.description}}</p>
+                <p class='materials'>{{.materials}}</p>
+              </li>
+              {{/projects}}
+            </li>
+          {{/catgories}}
+        </ul>
+    </div>
+  </script>
+
+  <script src=index.js></script>
+</body>
+
+</html>
