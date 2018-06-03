@@ -1,32 +1,35 @@
 [{
     "projects": [{
         "id": "multiverse",
-        "img": "https://78.media.tumblr.com/58d19bb85a2881673256edfc60d75ece/tumblr_oo8etzhono1te7nh8o1_1280.gif",
-        "url": "http://multivers.es/selections",
+        "media" : [{"url": "http://multivers.es/selections"}],
         "authors": "Mimi Yin, Katie Capps-Parlante",
         "title": "Multiverse",
-        "tagline": "Poems from strangers on Twitter",
-        "description": "Programmatically generated through chance operations.",
-        "materials": "Text, Twitter. Written in Python and Javascript.",
+        "tagline": "Poems by strangers",
+        "description": "Generated through chance operations.",
+        "materials": "Made of text from Twitter. Written in Python and Javascript.",
         "date": 2010
 
     }, {
         "id": "prosaic",
-        "img": "https://78.media.tumblr.com/58d19bb85a2881673256edfc60d75ece/tumblr_oo8etzhono1te7nh8o1_1280.gif",
-        "url": "http://prosaic.co",
+        "media" : [{"url": "http://prosaic.co"}],
         "authors": "Mimi Yin",
         "title": "Prosaic",
-        "tagline": "Text as rhythm",
-        "description": "Programmatically generated from a corpus of 1MM+ common English words and phrases.",
-        "materials": "Text. Written in Python, using the Natural Language Toolkit.",
+        "tagline": "Text as rhythm as text",
+        "description": "Generated from a corpus of 1MM+ common English words and phrases.",
+        "materials": "Made of text. Written in Python using the Natural Language Toolkit.",
         "date": 2012
     }]
 }, {
     "projects": [{
         "id": "beluga",
-        "img": "https://78.media.tumblr.com/58d19bb85a2881673256edfc60d75ece/tumblr_oo8etzhono1te7nh8o1_1280.gif",
-        "vimeo": "http://player.vimeo.com/video/44995692?api=1;&loop=1;&player_id=beluga-live",
-        "flickr": "http://www.flickr.com/apps/slideshow/show.swf?v=109615",
+        "media" : [{"vimeo": "http://player.vimeo.com/video/44995692?api=1;&loop=1;&player_id=beluga-live"},
+        {"images": [{"url": "https://farm8.staticflickr.com/7159/6539270655_683cc698a5_o.jpg"},
+        {"url": "https://farm8.staticflickr.com/7159/6539266187_49b37d3ff2_o.jpg"},
+        {"url": "https://farm8.staticflickr.com/7156/6539265277_281d394deb_o.jpg"},
+        {"url": "https://farm8.staticflickr.com/7150/6539297593_3a6256efbd_o.jpg"},
+        {"url": "https://farm8.staticflickr.com/7014/6539274325_f15fbb132c_o.jpg"},
+        {"url": "https://farm8.staticflickr.com/7175/6539276211_92f5c6ae89_o.jpg"},
+        {"url": "https://farm8.staticflickr.com/7160/6539309203_3903a77288_o.jpg"}]}],
         "authors": "Mimi Yin, Guang Zhu",
         "title": "Beluga",
         "tagline": "A procession",
@@ -37,47 +40,43 @@
         "date": 2011
     }, {
         "id": "flur",
-        "img": "https://78.media.tumblr.com/58d19bb85a2881673256edfc60d75ece/tumblr_oo8etzhono1te7nh8o1_1280.gif",
-        "url": ["http://alpha.editor.p5js.org/full/SyCNgE1xQ"],
+        "media" : [{"url": ["http://alpha.editor.p5js.org/full/SyCNgE1xQ"]}],
         "authors": "Mimi Yin",
         "title": "Flur",
-        "tagline": "Leaves of color.",
+        "tagline": "Leaves of color",
         "description": "A study of color in motion.",
         "materials": "Originally created with Processing. Ported to p5.js.",
         "music": "Prelude No. 5 in D Major from the Well-Tempered Clavier by J.S. Bach.",
         "date": 2011
     }, {
         "id": "rgby",
-        "img": "https://78.media.tumblr.com/58d19bb85a2881673256edfc60d75ece/tumblr_oo8etzhono1te7nh8o1_1280.gif",
-        "vimeo": "http://player.vimeo.com/video/12553139?api=1;&loop=1;&player_id=rgby_player",
-        "flickr": "http://www.flickr.com/apps/slideshow/show.swf?v=109615",
+        "media" : [{"images": [{"url" : "https://farm8.staticflickr.com/7239/7189665839_9d83294295_o.jpg"}]},
+        {"vimeo": "http://player.vimeo.com/video/12553139?api=1;&loop=1;&player_id=rgby_player"}],
         "authors": "Mimi Yin, Alexx Shilling, Janusz Jaworski",
         "title": "RGB Y",
-        "tagline": "2 dancers, 1 painter, 1 canvas.",
-        "description": "A structured improvisation that produces a painting.",
-        "materials": "Powder pigment, pencil shavings, and water on white butcher paper.",
+        "tagline": "2 dancers, 1 painter, 1 canvas",
+        "description": "A structured improvisation to create a painting.",
+        "materials": "Made of powder pigment, pencil shavings, and water on white paper.",
         "date": 2010
     }]
 }, {
     "projects": [{
         "id": "hangman",
-        "img": "https://78.media.tumblr.com/58d19bb85a2881673256edfc60d75ece/tumblr_oo8etzhono1te7nh8o1_1280.gif",
-        "vimeo": "http://player.vimeo.com/video/30670001?api=1;&loop=1;&player_id=jig-flail",
+        "media" : [{"vimeo": "http://player.vimeo.com/video/30670001?api=1;&loop=1;&player_id=jig-flail"}],
         "authors": "Mimi Yin",
         "title": "Hangman's Jig",
-        "tagline": "Flailing light",
+        "tagline": "A light that flails",
         "description": "1 in a series of moving light sculptures.",
-        "materials": "Aluminum, incandescent bulbs.",
+        "materials": "Made of aluminum and incandescent bulbs. Programmed with an Arduino.",
         "date": 2011
     }, {
         "id": "highline",
-        "img": "https://78.media.tumblr.com/58d19bb85a2881673256edfc60d75ece/tumblr_oo8etzhono1te7nh8o1_1280.gif",
-        "vimeo": "http://player.vimeo.com/video/49796598?api=1;&loop=1;&player_id=highline-dusk",
-        "flickr": "http://player.vimeo.com/video/49272585?api=1;&loop=1;&player_id=highline-dark",
+        "media" : [{"vimeo": "http://player.vimeo.com/video/49796598?api=1;&loop=1;&player_id=highline-dusk"},
+        {"flickr": "http://player.vimeo.com/video/49272585?api=1;&loop=1;&player_id=highline-dark"}],
         "authors": "Mimi Yin, Craig Protzel",
-        "title": "Chance Encounters on The Highline",
-        "tagline": "Outdoor projections for dusk",
-        "description": "Structured improvisations for video intended for outdoor projection at dusk.",
+        "title": "Chance Encounters",
+        "tagline": "Projections on The Highline",
+        "description": "White on white and white on black projections intended for outdoor projection at dusk.",
         "performers": "Maddy Bullard, Lulu Soni, and Craig Protzel.",
         "materials": "Video",
         "date": 2012
@@ -85,21 +84,19 @@
 }, {
     "projects": [{
         "id": "wall",
-        "img": "https://78.media.tumblr.com/58d19bb85a2881673256edfc60d75ece/tumblr_oo8etzhono1te7nh8o1_1280.gif",
-        "url": "http://alpha.editor.p5js.org/full/HklZ3xNjM",
+        "media" : [{"url": "http://alpha.editor.p5js.org/full/HklZ3xNjM"}],
         "authors": "Mimi Yin",
         "title": "Soundwaller",
-        "tagline": "A wall of sound",
-        "description": "Movement detected by a camera scatters notes on an ever-shifting tonal landscape that is always modulating towards the average tonic.",
+        "tagline": "Sound shifting in and out of focus",
+        "description": "Movement scatters notes on a shifting tonal landscape that is always modulating towards the average tonic.",
         "materials": "Created with p5.js.",
         "date": 2018
     }, {
         "id": "beedoo",
-        "img": "https://78.media.tumblr.com/58d19bb85a2881673256edfc60d75ece/tumblr_oo8etzhono1te7nh8o1_1280.gif",
-        "url": "http://alpha.editor.p5js.org/full/SyUGaLylQ",
+        "media" : [{"url": "http://alpha.editor.p5js.org/full/SyUGaLylQ"}],
         "authors": "Mimi Yin",
         "title": "Beedoo",
-        "tagline": "Polyrhythms",
+        "tagline": "Predictable unpredictability in the form of rhythms",
         "description": "Programmatically generated polyrhythms.",
         "materials": "Originally created with Processing. Ported to p5.js.",
         "date": 2012

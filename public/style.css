@@ -1,7 +1,7 @@
 body {
-  /* background-image: url('http://backgroundcheckall.com/wp-content/uploads/2017/12/salt-background-8.jpg'); */
-  background-image: url('https://i.pinimg.com/originals/5d/af/cc/5dafccb56e273eddc7b30e68b7060d7c.jpg');
-  background-size: 200vw;
+  /* background-image: url('https://i.pinimg.com/originals/5d/af/cc/5dafccb56e273eddc7b30e68b7060d7c.jpg'); */
+  background-image: url('bg.png');
+  background-size: 180vw 100vh;
   height: 100vh;
   width: 100vw;
   margin: 0;
@@ -27,12 +27,12 @@ body {
   right: 20px;
   cursor: pointer;
   z-index: 10;
-  background: white;
+  background: rgba(255, 255, 255, 0.5);
   padding: 5px;
 }
 
 body p {
-  font-family: Courier;
+  font-family: 'Titillium Web', sans-serif;
 }
 
 #menu-container {
@@ -41,7 +41,7 @@ body p {
   height: 100vh;
 }
 #menu {
-  width: 80vw;
+  width: 90vw;
   height: 100vh;
   margin: auto;
   display: flex;
@@ -61,16 +61,16 @@ li.menu-category:nth-child(even) {
 li.menu-project {
   position: relative;
   background: none;
-  height: 300px;
+  height: 250px;
   cursor: pointer;
-  margin: 10px 10px;
-  padding: 20px;
+  margin: -10px -10px;
+  padding: 10px 20px 5px 20px;
 }
 li.menu-project:hover {
   color: rgb(225, 0, 67);
 }
 li.menu-project p {
-  font-size: 0.75em;
+  font-size: 0.8em;
   margin: 0 10px 0 10px;
 }
 li.menu-project p.materials,  li.menu-project p.description{
@@ -84,9 +84,28 @@ li.menu-project p.title {
   margin-bottom: 20px;
   padding-top: 10px;
   font-size: 1.5em;
+  line-height: .75em;
   font-weight: bold;
   font-variant-caps: all-small-caps;
-  line-height: .75em;
+}
+
+@keyframes bounce {
+  from { transform: translate(0, 0);     }
+  to   { transform: translate(0, -20px); }
+}
+
+.scroll-pointer {
+  position: fixed;
+  bottom : 20px;
+  right: 20px;
+  font-size: 5em;
+  color: white;
+  -webkit-text-stroke: 1px black;
+  text-stroke: 1px black;
+  animation: bounce 0.5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  z-index: 10;
 }
 
 #projects {
@@ -118,7 +137,7 @@ li.menu-project p.title {
   transition: opacity 3s;
 }
 
-iframe, embed {
+iframe {
   width: 100vw;
   height: 100vh;
   position: relative;
@@ -130,8 +149,7 @@ iframe.vimeo {
   margin-left: -35vw;
 }
 
-embed {
-  min-width: 100%;
-  min-height: 150vh;
-  left: 0;
+.project img {
+  min-width: 100vw;
+  height: 100vh;
 }

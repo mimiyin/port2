@@ -7,6 +7,7 @@
   <!-- Ractive -->
   <script src='https://cdn.jsdelivr.net/npm/ractive'></script>
   <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web" rel="stylesheet">
 </head>
 
 <body>
@@ -19,15 +20,24 @@
           {{#projects:p}}
             {{#if .show}}
               <div class='project' id='{{.id}}'>
-                {{#if .url}}
-                  <iframe class="url" src="{{.url}}"></iframe>
-                {{/if}}
-                {{#if .vimeo}}
-                  <iframe class="vimeo" src="{{.vimeo}}" width="800" height="450" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-                {{/if}}
-                {{#if .flickr}}
-                  <embed value="transparent" type="application/x-shockwave-flash" src='{{.flickr}}' allowFullScreen="true" flashvars="offsite=true&lang=en-us&page_show_url=%2Fphotos%2F78004446%40N00%2Fsets%2F72157628487604271%2Fshow%2F&page_show_back_url=%2Fphotos%2F78004446%40N00%2Fsets%2F72157628487604271%2F&set_id=72157628487604271&jump_to=" class="media flickr" width="800" height="450">
-                {{/if}}
+                <div class="media">
+                  {{#media: m}}
+                    {{#if .url}}
+                      <iframe class="url" src="{{.url}}"></iframe>
+                    {{/if}}
+                    {{#if .vimeo}}
+                      <iframe class="vimeo" src="{{.vimeo}}" width="800" height="450" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                    {{/if}}
+                    {{#if .images}}
+                      {{#images: i}}
+                        <img src = "{{.url}}">
+                      {{/images}}
+                    {{/if}}
+                    {{#if m == 1}}
+                      <div class="scroll-pointer">&#9759;</div>
+                    {{/if}}
+                  {{/media}}
+                </div>
               </div>
             {{/if}}
           {{/projects}}
