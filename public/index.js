@@ -1,6 +1,3 @@
-
-
-
 let categories;
 let galleryView;
 let leaving;
@@ -8,9 +5,9 @@ let arriving;
 
 const MIN_COLOR_RATE = 0.01;
 const MAX_COLOR_RATE = 0.1;
-const MIN_SKEW = -5;
-const MAX_SKEW = 5;
-const MAX_SKEW_RATE = 0.015;
+const MIN_SKEW = -15;
+const MAX_SKEW = 15;
+const MAX_SKEW_RATE = 0.025;
 
 let albers = function(p) {
   let background;
@@ -55,7 +52,7 @@ let albers = function(p) {
         b: p.random(MIN_COLOR_RATE, MAX_COLOR_RATE),
       };
 
-      this.a = this.el.elt.classList.contains('menu-bg') ? 0.85 : 0.5;
+      this.a = 0.5; //this.el.elt.classList.contains('menu-bg') ? 0.5 : 0.5;
     }
     update() {
       for (let c in this.rgb) {
@@ -72,8 +69,8 @@ let albers = function(p) {
       this.update();
       // Safari can only take integers for rgb
       this.el.style('background-color', 'rgba(' + p.round(this.rgb.r) + ',' + p.round(this.rgb.g) + ',' + p.round(this.rgb.b) + ',' + this.a + ')');
-      // let skew = 'skew(' + this.skew.x + 'deg, ' + this.skew.y + 'deg)';
-      // this.el.style('transform', skew);
+      let skew = 'skew(' + this.skew.x + 'deg, ' + this.skew.y + 'deg)';
+      this.el.style('transform', skew);
     }
   }
 }
@@ -94,6 +91,7 @@ function loadJSON(callback) {
 }
 // Call to function with anonymous callback
 loadJSON(function(response) {
+
   // Do Something with the response e.g.
   categories = JSON.parse(response);
   // Assuming json data is wrapped in square brackets as Drew suggests

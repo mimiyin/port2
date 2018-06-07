@@ -25,14 +25,12 @@
                     {{#if .url}}
                       <iframe class="url" src="{{.url}}"></iframe>
                     {{/if}}
-                    {{#if .vimeo}}
-                      <iframe class="vimeo" src="{{.vimeo}}" width="800" height="450" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-                    {{/if}}
-                    {{#if .images}}
-                      {{#images: i}}
-                        <img src = "{{.url}}">
-                      {{/images}}
-                    {{/if}}
+                    {{#vimeos : v}}
+                      <iframe class="vimeo" src="{{.url}}" width="800" height="450" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+                    {{/vimeos}}
+                    {{#images: i}}
+                      <img src = "{{.url}}">
+                    {{/images}}
                     {{#if m == 1}}
                       <div class="scroll-pointer">&#9759;</div>
                     {{/if}}
@@ -42,7 +40,7 @@
             {{/if}}
           {{/projects}}
         </div>
-      {{/catgories}}
+      {{/categories}}
     </div>
 
     <div id='menu-button' on-click="@.showMenu()">PROJECTS</div>
@@ -61,7 +59,7 @@
               </li>
               {{/projects}}
             </li>
-          {{/catgories}}
+          {{/categories}}
         </ul>
     </div>
   </script>

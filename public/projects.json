@@ -6,7 +6,7 @@
         "title": "Multiverse",
         "tagline": "Poems by strangers",
         "description": "Generated through chance operations.",
-        "materials": "Made of text from Twitter. Written in Python and Javascript.",
+        "materials": "Made of Tweets. Written in Python and Javascript.",
         "date": 2010
 
     }, {
@@ -16,13 +16,13 @@
         "title": "Prosaic",
         "tagline": "Text as rhythm as text",
         "description": "Generated from a corpus of 1MM+ common English words and phrases.",
-        "materials": "Made of text. Written in Python using the Natural Language Toolkit.",
+        "materials": "Made of everyday phrases. Written in Python using the Natural Language Toolkit.",
         "date": 2012
     }]
 }, {
     "projects": [{
         "id": "beluga",
-        "media" : [{"vimeo": "http://player.vimeo.com/video/44995692?api=1;&loop=1;&player_id=beluga-live"},
+        "media" : [{"vimeos": [{"url" :"http://player.vimeo.com/video/44995692?api=1;&loop=1;&player_id=beluga-live"}]},
         {"images": [{"url": "https://farm8.staticflickr.com/7159/6539270655_683cc698a5_o.jpg"},
         {"url": "https://farm8.staticflickr.com/7159/6539266187_49b37d3ff2_o.jpg"},
         {"url": "https://farm8.staticflickr.com/7156/6539265277_281d394deb_o.jpg"},
@@ -33,7 +33,7 @@
         "authors": "Mimi Yin, Guang Zhu",
         "title": "Beluga",
         "tagline": "A procession",
-        "description": "Programmatically generated creatures promenade across an ocean from dawn to dusk.",
+        "description": "Across an ocean from dawn to dusk.",
         "performers": "Maddy Bullard, Lulu Soni.",
         "materials": "Created for the 120-foot long Video Wall @IAC HQ with Processing.",
         "music": "Belle nuit, o nuit d'amour from Les Contes DHoffmann.",
@@ -50,11 +50,11 @@
         "date": 2011
     }, {
         "id": "rgby",
-        "media" : [{"images": [{"url" : "https://farm8.staticflickr.com/7239/7189665839_9d83294295_o.jpg"}]},
-        {"vimeo": "http://player.vimeo.com/video/12553139?api=1;&loop=1;&player_id=rgby_player"}],
+        "media" : [{"images": [{"url": "https://farm8.staticflickr.com/7239/7189665839_9d83294295_o.jpg"}]},
+        {"vimeos": [{"url": "http://player.vimeo.com/video/12553139?api=1;&loop=1;&player_id=rgby_player"}]}],
         "authors": "Mimi Yin, Alexx Shilling, Janusz Jaworski",
         "title": "RGB Y",
-        "tagline": "2 dancers, 1 painter, 1 canvas",
+        "tagline": "2 dancers 1 painter 1 canvas",
         "description": "A structured improvisation to create a painting.",
         "materials": "Made of powder pigment, pencil shavings, and water on white paper.",
         "date": 2010
@@ -62,7 +62,7 @@
 }, {
     "projects": [{
         "id": "hangman",
-        "media" : [{"vimeo": "http://player.vimeo.com/video/30670001?api=1;&loop=1;&player_id=jig-flail"}],
+        "media" : [{"vimeos": [{"url": "http://player.vimeo.com/video/30670001?api=1;&loop=1;&player_id=jig-flail"}, {"url": "https://player.vimeo.com/video/273731650?api=1;&loop=1;&player_id=jig-hand"}]}],
         "authors": "Mimi Yin",
         "title": "Hangman's Jig",
         "tagline": "A light that flails",
@@ -71,12 +71,11 @@
         "date": 2011
     }, {
         "id": "highline",
-        "media" : [{"vimeo": "http://player.vimeo.com/video/49796598?api=1;&loop=1;&player_id=highline-dusk"},
-        {"flickr": "http://player.vimeo.com/video/49272585?api=1;&loop=1;&player_id=highline-dark"}],
+        "media" : [{"vimeos": [{"url": "http://player.vimeo.com/video/49796598?api=1;&loop=1;&player_id=highline-dusk"}, {"url": "http://player.vimeo.com/video/49272585?api=1;&loop=1;&player_id=highline-dark"}]}],
         "authors": "Mimi Yin, Craig Protzel",
-        "title": "Chance Encounters",
-        "tagline": "Projections on The Highline",
-        "description": "White on white and white on black projections intended for outdoor projection at dusk.",
+        "title": "Dusk and Dark",
+        "tagline": "Projections at dusk on The Highline",
+        "description": "Studies in light and motion.",
         "performers": "Maddy Bullard, Lulu Soni, and Craig Protzel.",
         "materials": "Video",
         "date": 2012
@@ -87,8 +86,8 @@
         "media" : [{"url": "http://alpha.editor.p5js.org/full/HklZ3xNjM"}],
         "authors": "Mimi Yin",
         "title": "Soundwaller",
-        "tagline": "Sound shifting in and out of focus",
-        "description": "Movement scatters notes on a shifting tonal landscape that is always modulating towards the average tonic.",
+        "tagline": "Shifting in and out of aural focus",
+        "description": "Scatter notes on a shifting tonal landscape that is always modulating towards an average tonic.",
         "materials": "Created with p5.js.",
         "date": 2018
     }, {
@@ -96,7 +95,7 @@
         "media" : [{"url": "http://alpha.editor.p5js.org/full/SyUGaLylQ"}],
         "authors": "Mimi Yin",
         "title": "Beedoo",
-        "tagline": "Predictable unpredictability in the form of rhythms",
+        "tagline": "Predictable unpredictability in the form of rhythm",
         "description": "Programmatically generated polyrhythms.",
         "materials": "Originally created with Processing. Ported to p5.js.",
         "date": 2012
