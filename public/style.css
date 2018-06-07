@@ -39,6 +39,7 @@ body p {
   position: relative;
   width: 100vw;
   height: 100vh;
+  overflow: hidden;
 }
 #menu {
   width: 90vw;
@@ -47,6 +48,7 @@ body p {
   display: flex;
   align-items: center;
 }
+
 #menu li {
   list-style-type: none;
 }
@@ -54,7 +56,9 @@ li.menu-category {
   margin: 0px;
   width: 25%;
   text-align: right;
+  display: inline-block;
 }
+
 li.menu-category:nth-child(even) {
   text-align: left;
 }
@@ -65,6 +69,7 @@ li.menu-project {
   cursor: pointer;
   margin: -10px -10px;
   padding: 10px 20px 5px 20px;
+  display: inline-block;
 }
 li.menu-project:hover {
   color: rgb(225, 0, 67);
@@ -122,8 +127,6 @@ li.menu-project p.title {
   overflow-y: scroll;
   opacity: 0;
 }
-
-
 
 .show {
   opacity: 1;

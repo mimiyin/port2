@@ -52,7 +52,7 @@ let albers = function(p) {
         b: p.random(MIN_COLOR_RATE, MAX_COLOR_RATE),
       };
 
-      this.a = 0.5; //this.el.elt.classList.contains('menu-bg') ? 0.5 : 0.5;
+      this.a = this.el.elt.classList.contains('menu-bg') ? 0.5 : 0.5;
     }
     update() {
       for (let c in this.rgb) {
@@ -110,6 +110,9 @@ loadJSON(function(response) {
         let id = window.location.hash.substring(1);
         document.getElementById('menu-' + id).click();
       }
+    },
+    scroll : function(media) {
+      return media.length > 0 || media.vimeos.length > 0 || media.images.length > 0
     },
     showMenu: function() {
       if (arriving) leaving = arriving;

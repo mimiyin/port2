@@ -1,0 +1,34 @@
+@media only screen and (max-width: 1000px)  {
+  body {
+    background-size: 120% 120%;
+    height: auto;
+  }
+
+  .gel.menu-bg {
+    height: 100%;
+  }
+
+  #menu-container {
+    height: auto;
+  }
+  #menu {
+    width: 300px;
+    margin: 0 auto;
+    height: auto;
+    display: block;
+  }
+  li.menu-category {
+    width: 100%;
+    text-align: left;
+  }
+
+  li.menu-project {
+    width: 100%;
+  }
+
+  #projects {
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+}
