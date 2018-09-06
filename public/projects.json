@@ -11,7 +11,7 @@
 
     }, {
         "id": "prosaic",
-        "media" : [{"url": "http://prosaic.co"}],
+        "media" : [{"url": "https://prosaic.co"}],
         "authors": "Mimi Yin",
         "title": "Prosaic",
         "tagline": "Text as rhythm as text",
@@ -51,7 +51,7 @@
     }, {
         "id": "rgby",
         "media" : [{"images": [{"url": "https://farm8.staticflickr.com/7239/7189665839_9d83294295_o.jpg"}]},
-        {"vimeos": [{"url": "http://player.vimeo.com/video/12553139?api=1;&loop=1;&player_id=rgby_player"}]}],
+        {"vimeos": [{"url": "https://player.vimeo.com/video/12553139?api=1;&loop=1;&player_id=rgby_player"}]}],
         "authors": "Mimi Yin, Alexx Shilling, Janusz Jaworski",
         "title": "RGB Y",
         "tagline": "2 dancers 1 painter 1 canvas",
@@ -71,7 +71,7 @@
         "date": 2011
     }, {
         "id": "highline",
-        "media" : [{"vimeos": [{"url": "https://player.vimeo.com/video/49796598?api=1;&loop=1;&player_id=highline-dusk"}, {"url": "http://player.vimeo.com/video/49272585?api=1;&loop=1;&player_id=highline-dark"}]}],
+        "media" : [{"vimeos": [{"url": "https://player.vimeo.com/video/49796598?api=1;&loop=1;&player_id=highline-dusk"}, {"url": "https://player.vimeo.com/video/49272585?api=1;&loop=1;&player_id=highline-dark"}]}],
         "authors": "Mimi Yin, Craig Protzel",
         "title": "Dusk and Dark",
         "tagline": "Projections at dusk on The Highline",
