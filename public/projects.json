@@ -1,7 +1,7 @@
 [{
     "projects": [{
         "id": "multiverse",
-        "media" : [{"url": "http://multivers.es/selections"}],
+        "media" : [{"url": "https://multivers.es/selections"}],
         "authors": "Mimi Yin, Katie Capps-Parlante",
         "title": "Multiverse",
         "tagline": "Poems by strangers",
@@ -22,7 +22,7 @@
 }, {
     "projects": [{
         "id": "beluga",
-        "media" : [{"vimeos": [{"url" :"http://player.vimeo.com/video/44995692?api=1;&loop=1;&player_id=beluga-live"}]},
+        "media" : [{"vimeos": [{"url" :"https://player.vimeo.com/video/44995692?api=1;&loop=1;&player_id=beluga-live"}]},
         {"images": [{"url": "https://farm8.staticflickr.com/7159/6539270655_683cc698a5_o.jpg"},
         {"url": "https://farm8.staticflickr.com/7159/6539266187_49b37d3ff2_o.jpg"},
         {"url": "https://farm8.staticflickr.com/7156/6539265277_281d394deb_o.jpg"},
@@ -40,7 +40,7 @@
         "date": 2011
     }, {
         "id": "flur",
-        "media" : [{"url": ["http://alpha.editor.p5js.org/full/SyCNgE1xQ"]}],
+        "media" : [{"url": ["https://alpha.editor.p5js.org/full/SyCNgE1xQ"]}],
         "authors": "Mimi Yin",
         "title": "Flur",
         "tagline": "Leaves of color",
@@ -62,7 +62,7 @@
 }, {
     "projects": [{
         "id": "hangman",
-        "media" : [{"vimeos": [{"url": "http://player.vimeo.com/video/30670001?api=1;&loop=1;&player_id=jig-flail"}, {"url": "https://player.vimeo.com/video/273731650?api=1;&loop=1;&player_id=jig-hand"}]}],
+        "media" : [{"vimeos": [{"url": "https://player.vimeo.com/video/30670001?api=1;&loop=1;&player_id=jig-flail"}, {"url": "https://player.vimeo.com/video/273731650?api=1;&loop=1;&player_id=jig-hand"}]}],
         "authors": "Mimi Yin",
         "title": "Hangman's Jig",
         "tagline": "A light that flails",
@@ -71,7 +71,7 @@
         "date": 2011
     }, {
         "id": "highline",
-        "media" : [{"vimeos": [{"url": "http://player.vimeo.com/video/49796598?api=1;&loop=1;&player_id=highline-dusk"}, {"url": "http://player.vimeo.com/video/49272585?api=1;&loop=1;&player_id=highline-dark"}]}],
+        "media" : [{"vimeos": [{"url": "https://player.vimeo.com/video/49796598?api=1;&loop=1;&player_id=highline-dusk"}, {"url": "http://player.vimeo.com/video/49272585?api=1;&loop=1;&player_id=highline-dark"}]}],
         "authors": "Mimi Yin, Craig Protzel",
         "title": "Dusk and Dark",
         "tagline": "Projections at dusk on The Highline",
@@ -83,7 +83,7 @@
 }, {
     "projects": [{
         "id": "wall",
-        "media" : [{"url": "http://alpha.editor.p5js.org/full/HklZ3xNjM"}],
+        "media" : [{"url": "https://alpha.editor.p5js.org/full/HklZ3xNjM"}],
         "authors": "Mimi Yin",
         "title": "Soundwaller",
         "tagline": "Shifting in and out of aural focus",
@@ -92,7 +92,7 @@
         "date": 2018
     }, {
         "id": "beedoo",
-        "media" : [{"url": "http://alpha.editor.p5js.org/full/SyUGaLylQ"}],
+        "media" : [{"url": "https://alpha.editor.p5js.org/full/SyUGaLylQ"}],
         "authors": "Mimi Yin",
         "title": "Beedoo",
         "tagline": "Predictable unpredictability in the form of rhythm",
