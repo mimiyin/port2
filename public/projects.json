@@ -1,7 +1,7 @@
 [{
     "projects": [{
         "id": "multiverse",
-        "media" : [{"url": "https://multivers.es/selections"}],
+        "http" : "http://multivers.es/selections",
         "authors": "Mimi Yin, Katie Capps-Parlante",
         "title": "Multiverse",
         "tagline": "Poems by strangers",
@@ -11,7 +11,7 @@
 
     }, {
         "id": "prosaic",
-        "media" : [{"url": "https://prosaic.co"}],
+        "http": "http://prosaic.co",
         "authors": "Mimi Yin",
         "title": "Prosaic",
         "tagline": "Text as rhythm as text",

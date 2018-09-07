@@ -58,6 +58,9 @@
                 <p class='tagline'>{{.tagline}}</p>
                 <p class='description'>{{.description}}</p>
                 <p class='materials'>{{.materials}}</p>
+                {{#if .http}}
+                  <a href target="_blank" src="{{.http}}">Visit</a>
+                {{/if}}
               </li>
               {{/projects}}
             </li>

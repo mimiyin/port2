@@ -106,12 +106,12 @@ loadJSON(function(response) {
       document.getElementById('menu-button').style.transform = 'skew(' + Math.random() * 5 + 'deg, ' + Math.random() * -5 + 'deg)';
 
       // Navigate directly to projects
-      if(window.location.hash) {
+      if (window.location.hash) {
         let id = window.location.hash.substring(1);
         document.getElementById('menu-' + id).click();
       }
     },
-    scroll : function(media) {
+    scroll: function(media) {
       return media.length > 1 || media.vimeos.length > 1 || media.images.length > 1
     },
     showMenu: function() {
@@ -136,10 +136,13 @@ loadJSON(function(response) {
       // Pause all iframes
       let iframe = elt.getElementsByTagName('iframe')[0];
       if (iframe) iframe.contentWindow.postMessage('{"method":"pause"}', '*');
-      setTimeout(function(){
+      setTimeout(function() {
         leaving.show = false;
         galleryView.update();
       }, 5000);
+    },
+    openProject: function(url) {
+      window.open(url, '_blank');
     },
     show: function(id) {
       let elt = document.getElementById(id);
@@ -154,6 +157,10 @@ loadJSON(function(response) {
       return elt;
     },
     enter: function(project) {
+      if (project.http) {
+        this.openProject(project.http);
+        return;
+      }
       // Arrive at new project
       arriving = project;
 
