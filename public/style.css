@@ -47,6 +47,8 @@ body p {
   margin: auto;
   display: flex;
   align-items: center;
+  position: relative;
+  left: -5%;
 }
 
 #menu li {
@@ -65,7 +67,7 @@ li.menu-category:nth-child(even) {
 li.menu-project {
   position: relative;
   background: none;
-  height: 275px;
+  height: 250px;
   cursor: pointer;
   margin: -10px -10px;
   padding: 10px 20px 5px 20px;
@@ -80,14 +82,14 @@ li.menu-project p {
   margin: 0 10px 0 10px;
 }
 li.menu-project p.materials,  li.menu-project p.description{
-  margin-top: 20px;
+  margin-top: 15px;
 }
 li.menu-project p.tagline {
   font-size: 1.5em;
   line-height: 1em;
 }
 li.menu-project p.title {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   padding-top: 10px;
   font-size: 1.5em;
   line-height: .75em;
