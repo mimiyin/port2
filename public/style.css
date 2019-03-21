@@ -65,17 +65,18 @@ li.menu-category:nth-child(even) {
 li.menu-project {
   position: relative;
   background: none;
-  height: 250px;
+  height: 275px;
   cursor: pointer;
   margin: -10px -10px;
   padding: 10px 20px 5px 20px;
   display: inline-block;
 }
 li.menu-project:hover {
-  color: rgb(225, 0, 67);
+  color: white;
+
 }
 li.menu-project p {
-  font-size: 0.8em;
+  font-size: 0.875em;
   margin: 0 10px 0 10px;
 }
 li.menu-project p.materials,  li.menu-project p.description{

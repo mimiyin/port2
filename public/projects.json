@@ -1,21 +1,21 @@
 [{
     "projects": [{
         "id": "multiverse",
-        "http" : "http://multivers.es/selections",
+        "media" : [{"url": ["https://editor.p5js.org/move.mimi/embed/EAyJ13S47"]}],
         "authors": "Mimi Yin, Katie Capps-Parlante",
         "title": "Multiverse",
         "tagline": "Poems by strangers",
-        "description": "Generated through chance operations.",
+        "description": "3 line poems generated through chance operations. 1 stranger, 1 line.",
         "materials": "Made of Tweets. Written in Python and Javascript.",
         "date": 2010
 
     }, {
         "id": "prosaic",
-        "http": "http://prosaic.co",
+        "media" : [{"url": ["https://prosaic.co"]}],
         "authors": "Mimi Yin",
         "title": "Prosaic",
-        "tagline": "Text as rhythm as text",
-        "description": "Generated from a corpus of 1MM+ common English words and phrases.",
+        "tagline": "Text as rhythm",
+        "description": "A corpus of 1MM+ common English phrases is remixed, repeated, stuttered, rhymed, alliterated and elided.",
         "materials": "Made of everyday phrases. Written in Python using the Natural Language Toolkit.",
         "date": 2012
     }]
