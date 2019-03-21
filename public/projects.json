@@ -40,7 +40,7 @@
         "date": 2011
     }, {
         "id": "flur",
-        "media" : [{"url": ["https://alpha.editor.p5js.org/full/SyCNgE1xQ"]}],
+        "media" : [{"url": ["https://alpha.editor.p5js.org/embed/SyCNgE1xQ"]}],
         "authors": "Mimi Yin",
         "title": "Flur",
         "tagline": "Leaves of color",
@@ -83,7 +83,7 @@
 }, {
     "projects": [{
         "id": "wall",
-        "media" : [{"url": "https://alpha.editor.p5js.org/full/HklZ3xNjM"}],
+        "media" : [{"url": "https://alpha.editor.p5js.org/embed/HklZ3xNjM"}],
         "authors": "Mimi Yin",
         "title": "Soundwaller",
         "tagline": "Shifting in and out of aural focus",
@@ -92,7 +92,7 @@
         "date": 2018
     }, {
         "id": "beedoo",
-        "media" : [{"url": "https://alpha.editor.p5js.org/full/SyUGaLylQ"}],
+        "media" : [{"url": "https://alpha.editor.p5js.org/embed/SyUGaLylQ"}],
         "authors": "Mimi Yin",
         "title": "Beedoo",
         "tagline": "Predictable unpredictability in the form of rhythm",
