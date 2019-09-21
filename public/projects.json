@@ -1,103 +1,199 @@
 [{
-    "projects": [{
-        "id": "multiverse",
-        "media" : [{"url": ["https://editor.p5js.org/move.mimi/embed/EAyJ13S47"]}],
-        "authors": "Mimi Yin, Katie Capps-Parlante",
-        "title": "Multiverse",
-        "tagline": "Poems by strangers",
-        "description": "3 line poems generated through chance operations. 1 stranger, 1 line.",
-        "materials": "Made of Tweets. Written in Python and Javascript.",
-        "date": 2010
+  "projects": [{
+    "id": "multiverse",
+    "media": [{
+      "url": "https://editor.p5js.org/move.mimi/embed/EAyJ13S47",
+      "type": "url"
+    }],
+    "authors": "Mimi Yin, Katie Capps-Parlante",
+    "title": "Multiverse",
+    "tagline": "Poems by strangers",
+    "description": "3 line poems generated through chance operations. 1 stranger, 1 line.",
+    "materials": "Made of Tweets. Written in Python and Javascript.",
+    "date": 2010
 
-    }, {
-        "id": "prosaic",
-        "media" : [{"url": ["https://prosaic.co"]}],
-        "authors": "Mimi Yin",
-        "title": "Prosaic",
-        "tagline": "Text as rhythm",
-        "description": "A corpus of 1MM+ common English phrases is remixed, repeated, stuttered, rhymed, alliterated and elided.",
-        "materials": "Made of everyday phrases. Written in Python using the Natural Language Toolkit.",
-        "date": 2012
-    }]
+  }, {
+    "id": "prosaic",
+    "media": [{
+      "url": "https://prosaic.co",
+      "type": "url"
+    }],
+    "authors": "Mimi Yin",
+    "title": "Prosaic",
+    "tagline": "Text as rhythm",
+    "description": "A corpus of 1MM+ common English phrases is remixed, repeated, stuttered, rhymed, alliterated and elided.",
+    "materials": "Made of everyday phrases. Written in Python using the Natural Language Toolkit.",
+    "date": 2012
+  }]
 }, {
-    "projects": [{
-        "id": "beluga",
-        "media" : [{"vimeos": [{"url" :"https://player.vimeo.com/video/44995692?api=1;&loop=1;&player_id=beluga-live"}]},
-        {"images": [{"url": "https://farm8.staticflickr.com/7159/6539270655_683cc698a5_o.jpg"},
-        {"url": "https://farm8.staticflickr.com/7159/6539266187_49b37d3ff2_o.jpg"},
-        {"url": "https://farm8.staticflickr.com/7156/6539265277_281d394deb_o.jpg"},
-        {"url": "https://farm8.staticflickr.com/7150/6539297593_3a6256efbd_o.jpg"},
-        {"url": "https://farm8.staticflickr.com/7014/6539274325_f15fbb132c_o.jpg"},
-        {"url": "https://farm8.staticflickr.com/7175/6539276211_92f5c6ae89_o.jpg"},
-        {"url": "https://farm8.staticflickr.com/7160/6539309203_3903a77288_o.jpg"}]}],
-        "authors": "Mimi Yin, Guang Zhu",
-        "title": "Beluga",
-        "tagline": "A procession",
-        "description": "Across an ocean from dawn to dusk.",
-        "performers": "Maddy Bullard, Lulu Soni.",
-        "materials": "Created for the 120-foot long Video Wall @IAC HQ with Processing.",
-        "music": "Belle nuit, o nuit d'amour from Les Contes DHoffmann.",
-        "date": 2011
-    }, {
-        "id": "flur",
-        "media" : [{"url": ["https://alpha.editor.p5js.org/embed/SyCNgE1xQ"]}],
-        "authors": "Mimi Yin",
-        "title": "Flur",
-        "tagline": "Leaves of color",
-        "description": "A study of color in motion.",
-        "materials": "Originally created with Processing. Ported to p5.js.",
-        "music": "Prelude No. 5 in D Major from the Well-Tempered Clavier by J.S. Bach.",
-        "date": 2011
-    }, {
-        "id": "rgby",
-        "media" : [{"images": [{"url": "https://farm8.staticflickr.com/7239/7189665839_9d83294295_o.jpg"}]},
-        {"vimeos": [{"url": "https://player.vimeo.com/video/12553139?api=1;&loop=1;&player_id=rgby_player"}]}],
-        "authors": "Mimi Yin, Alexx Shilling, Janusz Jaworski",
-        "title": "RGB Y",
-        "tagline": "2 dancers 1 painter 1 canvas",
-        "description": "A structured improvisation to create a painting.",
-        "materials": "Made of powder pigment, pencil shavings, and water on white paper.",
-        "date": 2010
-    }]
+  "projects": [{
+    "id": "beluga",
+    "media": [{
+        "url": "https://player.vimeo.com/video/44995692?api=1;&loop=1;&player_id=beluga-live",
+        "type": "vimeo"
+      },
+      {
+        "url": "https://farm8.staticflickr.com/7159/6539270655_683cc698a5_o.jpg",
+        "type": "image"
+      },
+      {
+        "url": "https://farm8.staticflickr.com/7159/6539266187_49b37d3ff2_o.jpg",
+        "type": "image"
+      },
+      {
+        "url": "https://farm8.staticflickr.com/7156/6539265277_281d394deb_o.jpg",
+        "type": "image"
+      },
+      {
+        "url": "https://farm8.staticflickr.com/7150/6539297593_3a6256efbd_o.jpg",
+        "type": "image"
+      },
+      {
+        "url": "https://farm8.staticflickr.com/7014/6539274325_f15fbb132c_o.jpg",
+        "type": "image"
+      },
+      {
+        "url": "https://farm8.staticflickr.com/7175/6539276211_92f5c6ae89_o.jpg",
+        "type": "image"
+      },
+      {
+        "url": "https://farm8.staticflickr.com/7160/6539309203_3903a77288_o.jpg",
+        "type": "image"
+      }
+    ],
+    "authors": "Mimi Yin, Guang Zhu",
+    "title": "Beluga",
+    "tagline": "A procession",
+    "description": "Across an ocean from dawn to dusk.",
+    "performers": "Maddy Bullard, Lulu Soni.",
+    "materials": "Created for the 120-foot long Video Wall @IAC HQ with Processing.",
+    "music": "Belle nuit, o nuit d'amour from Les Contes DHoffmann.",
+    "date": 2011
+  }, {
+    "id": "flur",
+    "media": [{
+      "url": "https://alpha.editor.p5js.org/embed/SyCNgE1xQ",
+      "type": "url"
+    }],
+    "authors": "Mimi Yin",
+    "title": "Flur",
+    "tagline": "Leaves of color",
+    "description": "A study of color in motion.",
+    "materials": "Originally created with Processing. Ported to p5.js.",
+    "music": "Prelude No. 5 in D Major from the Well-Tempered Clavier by J.S. Bach.",
+    "date": 2011
+  }, {
+    "id": "rgby",
+    "media": [{
+        "url": "https://farm8.staticflickr.com/7239/7189665839_9d83294295_o.jpg",
+        "type": "image"
+      },
+      {
+        "url": "https://player.vimeo.com/video/12553139?api=1;&loop=1;&player_id=rgby_player",
+        "type": "vimeo"
+      }
+    ],
+    "authors": "Mimi Yin, Alexx Shilling, Janusz Jaworski",
+    "title": "RGB Y",
+    "tagline": "2 dancers 1 painter 1 canvas",
+    "description": "A structured improvisation to create a painting.",
+    "materials": "Made of powder pigment, pencil shavings, and water on white paper.",
+    "date": 2010
+  }]
 }, {
-    "projects": [{
-        "id": "hangman",
-        "media" : [{"vimeos": [{"url": "https://player.vimeo.com/video/30670001?api=1;&loop=1;&player_id=jig-flail"}, {"url": "https://player.vimeo.com/video/273731650?api=1;&loop=1;&player_id=jig-hand"}]}],
-        "authors": "Mimi Yin",
-        "title": "Hangman's Jig",
-        "tagline": "A light that flails",
-        "description": "1 in a series of moving light sculptures.",
-        "materials": "Made of aluminum and incandescent bulbs. Programmed with an Arduino.",
-        "date": 2011
+  "projects": [{
+    "id": "hangman",
+    "media": [{
+      "url": "https://player.vimeo.com/video/30670001?api=1;&loop=1;&player_id=jig-flail",
+      "type": "vimeo"
     }, {
-        "id": "highline",
-        "media" : [{"vimeos": [{"url": "https://player.vimeo.com/video/49796598?api=1;&loop=1;&player_id=highline-dusk"}, {"url": "https://player.vimeo.com/video/49272585?api=1;&loop=1;&player_id=highline-dark"}]}],
-        "authors": "Mimi Yin, Craig Protzel",
-        "title": "Dusk and Dark",
-        "tagline": "Projections at dusk on The Highline",
-        "description": "Studies in light and motion.",
-        "performers": "Maddy Bullard, Lulu Soni, and Craig Protzel.",
-        "materials": "Video",
-        "date": 2012
-    }]
+      "url": "https://player.vimeo.com/video/273731650?api=1;&loop=1;&player_id=jig-hand",
+      "type": "vimeo"
+    }],
+    "authors": "Mimi Yin",
+    "title": "Hangman's Jig",
+    "tagline": "A light that flails",
+    "description": "1 in a series of moving light sculptures.",
+    "materials": "Made of aluminum and incandescent bulbs. Programmed with an Arduino.",
+    "date": 2011
+  }, {
+    "id": "highline",
+    "media": [{
+      "url": "https://player.vimeo.com/video/49796598?api=1;&loop=1;&player_id=highline-dusk",
+      "type": "vimeo"
+    }, {
+      "url": "https://player.vimeo.com/video/49272585?api=1;&loop=1;&player_id=highline-dark",
+      "type": "vimeo"
+    }],
+    "authors": "Mimi Yin, Craig Protzel",
+    "title": "Dusk and Dark",
+    "tagline": "Projections at dusk on The Highline",
+    "description": "Studies in light and motion.",
+    "performers": "Maddy Bullard, Lulu Soni, and Craig Protzel.",
+    "materials": "Video",
+    "date": 2012
+  }]
 }, {
-    "projects": [{
-        "id": "wall",
-        "media" : [{"url": "https://alpha.editor.p5js.org/embed/HklZ3xNjM"}],
-        "authors": "Mimi Yin",
-        "title": "Soundwaller",
-        "tagline": "Shifting in and out of aural focus",
-        "description": "Scatter notes on a shifting tonal landscape that is always modulating towards an average tonic.",
-        "materials": "Created with p5.js.",
-        "date": 2018
-    }, {
-        "id": "beedoo",
-        "media" : [{"url": "https://alpha.editor.p5js.org/embed/SyUGaLylQ"}],
-        "authors": "Mimi Yin",
-        "title": "Beedoo",
-        "tagline": "Predictable unpredictability in the form of rhythm",
-        "description": "Programmatically generated polyrhythms.",
-        "materials": "Originally created with Processing. Ported to p5.js.",
-        "date": 2012
-    }]
+  "projects": [{
+    "id": "daughter",
+    "media": [{
+        "url": "https://player.vimeo.com/video/287728625",
+        "type": "vimeo"
+      },
+      {
+        "url": "https://live.staticflickr.com/65535/48770647796_faddf921f3_k.jpg",
+        "type": "image"
+      },
+      {
+        "url": "https://live.staticflickr.com/65535/48770850952_5c7d591682_k.jpg",
+        "type": "image"
+      },
+      {
+        "url": "https://live.staticflickr.com/65535/48770648206_2aa0991837_k.jpg",
+        "type": "image"
+      },
+      {
+        "url": "https://live.staticflickr.com/65535/48770850722_6f1d381502_k.jpg",
+        "type": "image"
+      },
+      {
+        "url": "https://live.staticflickr.com/65535/48770647636_f02ef6c3da_k.jpg",
+        "type": "image"
+      },
+      {
+        "url": "https://live.staticflickr.com/65535/48770850397_72553cf6e7_k.jpg",
+        "type": "image"
+      },
+      {
+        "url": "https://live.staticflickr.com/65535/48770647591_bde90010ef_k.jpg",
+        "type": "image"
+      },
+      {
+        "url": "https://live.staticflickr.com/65535/48770869687_e3285d4efc_k.jpg",
+        "type": "image"
+      },
+      {
+        "url": "https://alpha.editor.p5js.org/embed/HklZ3xNjM",
+        "type": "url"
+      }
+    ],
+    "authors": "Mimi Yin",
+    "title": "Stationmaster's Daughter",
+    "tagline": "A group of people are invited to a garden party...",
+    "description": "An IR camera tracks motion in complete darkness, scattering notes on a shifting tonal landscape.",
+    "materials": "Created with p5.js.",
+    "date": 2018
+  }, {
+    "id": "beedoo",
+    "media": [{
+      "url": "https://alpha.editor.p5js.org/embed/SyUGaLylQ",
+      "type": "url"
+    }],
+    "authors": "Mimi Yin",
+    "title": "Beedoo",
+    "tagline": "Predictable unpredictability in the form of rhythm",
+    "description": "Programmatically generated polyrhythms.",
+    "materials": "Originally created with Processing. Ported to p5.js.",
+    "date": 2012
+  }]
 }]

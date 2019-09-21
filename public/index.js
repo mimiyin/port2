@@ -112,7 +112,7 @@ loadJSON(function(response) {
       }
     },
     scroll: function(media) {
-      return media.length > 1 || media.vimeos.length > 1 || media.images.length > 1
+      return media.length > 1;
     },
     showMenu: function() {
       if (arriving) leaving = arriving;

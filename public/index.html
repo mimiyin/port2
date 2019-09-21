@@ -23,17 +23,17 @@
             {{#if .show}}
               <div class='project' id='{{.id}}'>
                 <div class="media">
-                  {{#media: m}}
-                    {{#if .url}}
+                  {{#each media}}
+                    {{#if .type == "url"}}
                       <iframe class="url" src="{{.url}}"></iframe>
                     {{/if}}
-                    {{#vimeos : v}}
+                    {{#if .type == "vimeo"}}
                       <iframe class="vimeo" src="{{.url}}" width="800" height="450" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-                    {{/vimeos}}
-                    {{#images: i}}
+                    {{/if}}
+                    {{#if .type == "image"}}
                       <img src = "{{.url}}">
-                    {{/images}}
-                  {{/media}}
+                    {{/if}}
+                  {{/each}}
                   {{#if @.scroll(media)}}
                     <div class="scroll-pointer">&#9759;</div>
                   {{/if}}
